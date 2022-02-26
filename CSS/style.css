@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/Images/pexels-andrea-piacquadio-3771110.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  background-color: rgba(17, 11, 17, 0.623);
+  height: max-content;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav > .container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+nav > .container > .navBrand {
+  display: flex;
+  float: left;
+  color: azure;
+  text-decoration: none;
+  font-size: 30px;
+  width: 15%;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menuitems {
+  width: 85%;
+}
+.menuitems > .menuitemleft > ul,
+.menuitems > .menuitemright > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline;
+}
+.menuitems > .menuitemleft > ul > li {
+  float: left;
+  /* display: block; */
+  padding: 20px;
+}
+
+.menuitems > .menuitemright > ul > li {
+  float: right;
+  /* display: block; */
+  padding: 20px;
+  margin-right: 20px;
+}
+.menuitems > .menuitemleft > ul > li > a,
+.menuitems > .menuitemright > ul > li > a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+.menuitems > .menuitemleft > ul > li > a:hover,
+.menuitems > .menuitemright > ul > li > a:hover {
+  background-color: azure;
+  color: black;
+  /* border-radius: 15%; */
+}
+
+.login {
+  font-family: Poppins;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 40%;
+  padding: 10px;
+  color: azure;
+}
+.login > h3 {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-left: 180px;
+  margin-top: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+form {
+  display: inline-block;
+  border-style: ridge;
+  backdrop-filter: blur(10px);
+  width: 500px;
+  border-color: bisque;
+  border-radius: 1rem;
+  padding: 20px;
+}
+
+.input-form {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  height: 1.9rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.submit-button {
+  width: 20%;
+  height: 30px;
+  margin: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40%;
+  border-radius: 100px;
+  background-color: black;
+  color: azure;
+  cursor: pointer;
+}
+
+.center {
+  margin: auto;
+  width: 70%;
+  padding: 30px;
+}
+.forgotpass {
+  color: azure;
+  text-decoration: underline;
+}
+.submit-button2 {
+  width: 40%;
+  height: 30px;
+  margin: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30%;
+  border-radius: 100px;
+  background-color: black;
+  color: azure;
+  cursor: pointer;
+}
+
+.underline {
+  text-decoration: underline;
+}
+/* forgot Password CSS */
+.setpass {
+  font-family: Poppins;
+  line-height: 1.5;
+  margin: 0 auto;
+  width: 50%;
+  padding: 0px;
+  color: azure;
+}
+.setpass > h3 {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  margin-left: 220px;
+  margin-top: 5px;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+#survey-form {
+  display: inline-block;
+  border-style: ridge;
+  backdrop-filter: blur(10px);
+  width: 500px;
+  border-color: bisque;
+  border-radius: 1rem;
+  padding: 10px;
+  margin-left: 99px;
+}
+
+.input-form-forgot {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+  height: 1.9rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.centerpass {
+  margin: auto;
+  width: 70%;
+  padding: 30px 0px;
+}
+.centerpass > p {
+  padding-bottom: 15px;
+}
+.submit-button3 {
+  width: 40%;
+  height: 30px;
+  margin: 2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30%;
+  border-radius: 100px;
+  background-color: black;
+  color: azure;
+  cursor: pointer;
+}
+.black {
+  color: black;
+}
+
+.browsemargin {
+  width: 100%;
+  margin: 50px 115px;
+}
+.browsecontents {
+  width: 80%;
+  padding: 20px;
+  display: inline-block;
+  background-color: rgba(17, 11, 17, 0.8);
+  color: white;
+  border: 5px solid rgba(17, 11, 17, 0.8);
+  border-radius: 15px;
+}
+.browsecontents > h3 {
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.browsecontents > hr {
+  margin-bottom: 15px;
+}
+
+.browsecontents > p > a {
+  color: rgba(160, 153, 218, 1);
+}
+
+.browseLinks {
+  width: 100%;
+}
+
+.browseLinks > div {
+  width: 30%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.browseLinks > div > ul > li > a {
+  color: rgba(160, 153, 218, 1);
+}
+
+/* ---------footer---------- */
+.bg-clr {
+  background-color: rgba(17, 11, 17, 0.8);
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+.footer1 {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.footer1 > .footer-h1 {
+  padding-top: 10px;
+  color: azure;
+  text-transform: uppercase;
+}
+.footer1 > .footer-h2 {
+  padding-top: 10px;
+  justify-content: end;
+  padding-left: 300px;
+  color: azure;
+}
+.footerhr {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.list-section {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(160, 153, 218, 1);
+}
+.list {
+  padding-left: 90px;
+}
+li {
+  list-style: none;
+}
+li > a {
+  padding-left: 2px;
+  color: rgba(160, 153, 218, 1);
+  text-decoration: underline;
+}
+
+.head {
+  font-weight: bolder;
+  list-style: none;
+  color: azure;
+  text-transform: uppercase;
+  font-size: larger;
+}
+.fa {
+  padding: 10px;
+  font-size: medium;
+  border-radius: 35px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.icon {
+  padding-left: 190px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  /* background: #3B5998;*/
+  color: white;
+}
+
+.fa-twitter {
+  /* background: #55ACEE;*/
+  color: white;
+}
+.fa-instagram {
+  /* background: #125688;*/
+  color: white;
+}
+.fa-snapchat-ghost {
+  /* background: #fffc00;*/
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.btn-like {
+  background-color: #2196f3;
+  width: 80px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: xx-small;
+  font-weight: bold;
+  color: white;
+  display: block;
+  margin-top: 50px;
+  margin-left: -130px;
+}
+/* -------review---------- */
+.text {
+  font-size: 15px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.sbar > input[type="text"] {
+  padding: 6px;
+  margin-top: 20px;
+  margin-right: 16px;
+  border: 1px solid black;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.sbar button[type="submit"] {
+  color: white;
+  width: 5%;
+  background-color: black;
+  font-size: 10px;
+  padding-right: 10px;
+  border: 1px groove black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+/*-------------------BLOG CONTENT----------------*/
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.myblog {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.blog{
+  flex-basis:0;
+  margin-right: 50px;
+}
+
+.blog > img{
+  width: 400px;
+  height: 300px;
+  border: 5px solid rgba(17, 11, 17, 0.8);
+  border-radius: 10px;
+  
+}
+
+.blog > h2{
+  color: azure;
+  font: bolder;
+  margin: 30px 140px;
+
+}
+.blog > p{
+  color: black;
+  padding: 0;
+}
+.blogtext {
+  font-size: 25px;
+  text-align: center; 
+}
